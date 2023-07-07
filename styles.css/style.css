@@ -1,0 +1,266 @@
+/* navigacia */
+.action{
+    color: #F3F3F3;
+    background-color: black;
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    font-family: 'Inter 500';
+}
+header{
+    height: 96px;
+}
+.flax-header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.div-cont{
+    max-width: 1376px;
+    width: 95%;
+    margin: 0 auto;
+}
+.ul-items{
+    max-width: 328px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.navigation-block{
+    max-width: 328px;
+    width: 100%;
+}
+.b-bar{
+    display: none;
+}
+/* sectiebi */
+.section1{
+    width: 1440px;
+    height: 556px;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+}
+.sec1-box{
+    width: 490px;
+    height: 288px;
+    margin-left: 165px;
+}
+.sec1-box2{
+    width: 490px;
+    height: 48px;
+    margin-top: 50px;
+    display: flex;
+}
+.img1{
+    margin-left: 130px;
+}
+.nav-li{
+    font-size: 16px;
+    color:#000000;
+    font-family: 'Inter 500';
+}
+     /* textebis sectia */
+/* section1 */
+.sec1-head{
+    font-size: 56px;
+    color: black;
+    font-family: 'Inter';
+}
+.sec1-text1{
+    font-size: 18px;
+    color: black;
+    margin-top: 24px;
+    font-family: 'Inter500';
+}
+.sec1-text2{
+    font-family: 'Inter600';
+    font-size: 14px;
+    color: black;
+    width: 236px;
+    height: 40px;
+    margin-left: 20px;
+}
+/* section2 */
+.sec2-head{
+    font: 18px;
+    margin-left: 16px;
+    color: black;
+    font-family: 'Inter600';
+}
+.sec2-text{
+    font-family: 'Inter 500';
+    font-size: 16px;
+    color: black;
+    width: 360px;
+    height: 72px;
+    margin-top: 16px;
+}
+/* section3 */
+.sec3-head{
+    font-size: 24px;
+    color: white;
+    font-family: 'Inter';
+}
+.sec3-text{
+    font-size: 16px;
+    color: white;
+    font-family: 'Inter 500';
+    margin-top: 16px;
+}
+
+/* section2 */
+.section2{
+    /* width: 1440px; */
+    max-width: 1440px;
+    width: 95%;
+    background-color: #F3F3F3;
+    height: 256px;
+    margin: 0 auto;
+}
+.div-boxes{
+    max-width: 1440px;
+    width: 95%;
+    height: 256px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.child-div-boxe{
+    max-width: 360px;
+    width: 95%;
+    height: 128px;
+}
+.child-div-boxe:nth-child(1){
+    margin-left: 150px;
+}
+.child-div-boxe:nth-child(2){
+    margin-left: 30px;
+}
+.child-div-boxe:nth-child(3){
+    margin-left: 30px;
+}
+.sec2-div1{
+    display: flex;
+    align-items: center;
+}
+/* section3 */
+.section3{
+    width: 1440px;
+    height: 620px;
+    display: flex;
+    background-color: #000000;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.sec3-box{
+    width: 1140px;
+    height: 428px;
+
+    display: flex;
+    align-items: center;
+}
+.sec3-textbox{
+    width: 503.5px;
+    height: 264.4px;
+    margin-left: 133px;
+}
+.list-text{
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter 500';
+    line-height: 8px;
+
+}
+.sec3-ul-li{
+    width: 503.5px;
+    height: 120px;
+    margin-top: 16px;
+    line-height: 30px;
+}
+.section4{
+    margin: 0 auto;
+    width: 1440px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.sec4-div-box{
+    width: 540px;
+    height: 132px;
+    position: absolute;
+    margin-top: 192px;
+}
+.sec4-head{
+    font-size: 16px;
+    color: white;
+    font-family: 'Inter 500';
+    text-align: center;
+}
+.sec4-text{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: 12px;
+}
+.action-wite{
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    font-family: 'Inter600';
+    font-size: 16px;
+}
+.sec4-action{
+    position: absolute;
+    margin-top: 334px;
+}
+/* bolo sectia! */
+.section5{
+    width: 1440px;
+    height: 336px;
+    background-color: #000000;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.sec5-box{
+    width: 1140px;
+    height: 144px;
+    display: flex;
+}
+.logo{
+    width: 228px;
+    height: 27px;
+}
+.sec5-box1{
+    font-size: 14px;
+    color: white;
+    font-family: 'Inter 500';
+    margin-top:18px;
+}
+.sec5-head{
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter600';
+    margin-bottom: 16px;
+    width: 228px;
+}
+.sec5-sub{
+    color: white;
+    font: 14px;
+    font-family: 'Inter 500';
+    width: 228px;
+}
